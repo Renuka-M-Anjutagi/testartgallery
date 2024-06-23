@@ -117,7 +117,7 @@ export const forgotPassword = async(req,res) =>
             const token = JWT.sign({ email:oldUser.email, id: oldUser._id }, process.env.JWT_SECRET, {
                 expiresIn: "1d"
             });
-            const link = `http://localhost:8080/login/reset-password/${oldUser._id}/${token}`;
+            const link = `https://artvistagallery.onrender.com/login/reset-password/${oldUser._id}/${token}`;
             console.log(link);
             return link;
         }catch(error)
