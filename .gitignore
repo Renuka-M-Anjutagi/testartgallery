@@ -1,10 +1,10 @@
 <<<<<<< HEAD
 node_modules/
 package-lock.json
-client/
+clients/
 =======
 node_modules/
 package-lock.json
-client/
+clients/
 >>>>>>> e813d22dfc968b68f5ad56157a62da637c2e4e60
 .env
