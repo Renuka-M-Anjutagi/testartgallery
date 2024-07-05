@@ -8,6 +8,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "clients": "npm start --prefix ./clients",
+    "build": "cd ../frontend && npm install && npm run build"
     "dev": "concurrently \" npm run server\" \"npm run clients\""
   },
   "keywords": [],
